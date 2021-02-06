@@ -50,7 +50,7 @@ pipeline {
                 }
                 
                 
-                tage('Docker push') {         
+                stage('Docker push') {         
                 agent any
                 
                 environment {
